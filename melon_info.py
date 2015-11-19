@@ -12,7 +12,7 @@ def print_melon_info(melon_data):
 			print "%s: %s" % (attributes, value)
 		print 
 
-def add_attribte(melon_data, attribute, initial_value = None):
+def add_attribute(melon_data, attribute, initial_value = None):
 	for melon, attributes in melon_data.items():
 		attributes[attribute] = initial_value
 
